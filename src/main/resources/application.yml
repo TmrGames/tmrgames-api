@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tmr-games?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
+    username: root
+    password:
+
+logging:
+  level:
+    com.tmr.tomoapi: debug
